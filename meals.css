@@ -26,7 +26,7 @@ header a:hover {
 }
 
 .confirm-order {
-    background-color: red;
+    background-color: #ff6e00;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -45,7 +45,7 @@ nav{
     right: 10px;
 }
 
-// search setion
+/*Searcging section */
 
 #search-section{
     margin-top: 10px;
@@ -86,7 +86,13 @@ nav{
 
 .a-food{
   
-    background-color: ;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 
@@ -100,7 +106,7 @@ nav{
 
 .a-food div{
     border-radius: 0px 0px 10px 10px;
-    background-color: chocolate;
+    background-color: #ff6e00;
 
     color: white;
     padding: 10px;
@@ -114,3 +120,23 @@ nav{
      font-weight: bold;
 
 }
+
+
+#pagination{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*#pagination button span{
+    margin-left: 15px;
+    margin-right: 15px;
+
+}*/
+#pagination span{
+    font-size: large;
+    font-weight: bold;
+    color: blue ;
+}
+
