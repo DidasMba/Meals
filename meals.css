@@ -1,142 +1,121 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 30px 0;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-header a:hover {
-    text-decoration: underline;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.confirm-order {
-    background-color: #ff6e00;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav{
-    float: right;
-    position: absolute;
-    top: 30px;
-    right: 10px;
-}
-
-/*Searcging section */
-
-#search-section{
-    margin-top: 10px;
-    padding: 10px;
-}
-#search-section input{
- padding: 12px 12px;
- margin: 30px;
- border: 1px solid #cccccc;
- border-radius: 20px;
-
-}
-
-#search-section button{
-    background-color:#cccccc;
-    padding: 10px;
- 
-}
-
-#search-section spam:hover{
-    background-color: red;
-
-    padding: 14px 20px;
-    margin: 0px 20ox;
-    color: azure;
-    border-radius: 8px;
-    cursor: pointer;
-
-}
-
-#all-food{
-   padding: 10px; 
-   display: flex;
-   flex-wrap: wrap;
-   
-
-}
-
-.a-food{
+* {
+    box-sizing: border-box;
+  }
   
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-
-.a-food img{
-    border-radius: 10px 10px 0px 0px;
-    height: 25em;
-    width: auto;
-    display: block;
-
-}
-
-.a-food div{
-    border-radius: 0px 0px 10px 10px;
-    background-color: #ff6e00;
-
-    color: white;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.a-food span{
-     margin-left: 10px;
-     font-size: large;
-     font-weight: bold;
-
-}
-
-
-#pagination{
+  nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ff6e00;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    position: relative;
+    transition: width 1.5s;
+  }
+  
+  .input {
+    margin: 10px 50px;
+    margin-left: 20px;
     width: 100%;
+    color: #ff6e00;
+    border: none;
+    background: transparent;
+    outline: none;
+    transition-delay: 0.5s;
+  }
+  
+  .magnifier {
+    position: absolute;
+    right: 15px;
+    width: 25px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #ffa31a;
+  }
+  
+  ul li {
+    display: inline;
+    margin-left: 40px;
+    font-family: sans-serif;
+  }
+  
+  main {
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/*#pagination button span{
-    margin-left: 15px;
-    margin-right: 15px;
-
-}*/
-#pagination span{
-    font-size: large;
-    font-weight: bold;
-    color: blue ;
-}
-
+  }
+  
+  .container {
+    width: 60%;
+    padding: 3rem;
+    box-shadow: 10px 10px 40px 5px #e0e0e0;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content-container h1 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #2c2c2c;
+  }
+  
+  .content-container p {
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: #444444;
+    width: 26rem;
+  }
+  
+  .img {
+    transform: translateX(-120px);
+    margin-top: 1rem;
+    width: 2000px;
+    height: 450px;
+    border-radius: 20px;
+    background: url("https://images.unsplash.com/photo-1600289031464-74d374b64991?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+  
+  .ingredients {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 50px;
+  }
+  
+  .ingredients span {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .ing {
+    padding: 10px 20px;
+    border: 2px solid #ff6e00;
+    color: #ff6e00;
+    font-family: sans-serif;
+    border-radius: 100px;
+  }
+  
+  .main-btn {
+    background: transparent;
+    border: none;
+    border: 2px solid #ffa31a;
+    padding: 10px;
+    color: #ffa31a;
+  }
