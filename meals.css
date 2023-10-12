@@ -234,7 +234,7 @@
 }
 
 
-/*style of structure page*/
+/*style of structure page */
 
 
 body {
@@ -283,7 +283,7 @@ nav {
     border: 1px solid #ff6e00;
     padding: 5px;
     width: 100%; /* Ajuste la largeur pour s'adapter à tous les appareils */
-    max-width: 300px; /* Limite la largeur maximale */
+    max-width: 300px; /* LIMIT WIDTH MAXIMAL */
     height: 50px;
     border-radius: 50px;
     margin: 10px auto;
