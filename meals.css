@@ -24,17 +24,18 @@
   .input-container {
     display: flex;
     align-items: center;
-    border: 1px solid #ff6e00;
-    padding: 5px;
+    border: 3px solid #ff6e00;
+    padding: 10px;
     width: 300px;
     height: 50px;
     border-radius: 50px;
     margin: 10px;
     position: relative;
     transition: width 1.5s;
+    font-weight: bold;
   }
   
-  .input {
+  /*.input {
     margin: 10px 50px;
     margin-left: 20px;
     width: 100%;
@@ -43,7 +44,28 @@
     background: transparent;
     outline: none;
     transition-delay: 0.5s;
-  }
+  }*/
+
+  .input {
+    margin: 10px 50px;
+    margin-left: 20px;
+    width: 500px; /* Augmentez la largeur du champ de saisie */
+    color: #000; /* Changez la couleur du texte en noir */
+    border: none;
+    background: transparent;
+    outline: none;
+    transition-delay: 0.5s;
+}
+
+.main-btn {
+  background: transparent;
+  border: none;
+  border: 2px solid #ffa31a;
+  padding: 15px; /* Augmentez la hauteur du bouton */
+  font-size: 20px; /* Augmentez la taille de la police */
+  color: #ffa31a;
+}
+
   
   .magnifier {
     position: absolute;
@@ -92,7 +114,7 @@
     font-family: sans-serif;
     line-height: 1.4;
     margin-bottom: 2rem;
-    color: #444444;
+    color: black;
     width: 26rem;
   }
   
