@@ -1,18 +1,17 @@
+
 /* Styles fot the small screen (max-width: 768px) */
 
 
 @media screen and (max-width: 768px) {
   .menu {
-      flex-direction: column; /* Afficher le menu en colonne sur les petits écrans */
-      align-items: center;
-  }
-
-  .input-container {
-      max-width: 100%; /* Ajuster la largeur du formulaire pour les petits écrans */
-  }
-}
-
-
+       flex-direction: column; /* Afficher le menu en colonne sur les petits écrans */
+       align-items: center;
+   }
+ 
+   .input-container {
+       max-width: 100%; /* Ajuster la largeur du formulaire pour les petits écrans */
+   }
+ }
 * {
     box-sizing: border-box;
   }
@@ -119,6 +118,7 @@
     margin-bottom: 2rem;
     color: black;
     width: 26rem;
+    text-align: center;
   }
   
   .img {
