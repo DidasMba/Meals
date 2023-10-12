@@ -1,3 +1,15 @@
+/* Styles fot the small screen (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column; /* Afficher le menu en colonne sur les petits écrans */
+        align-items: center;
+    }
+
+    .input-container {
+        max-width: 100%; /* Ajuster la largeur du formulaire pour les petits écrans */
+    }
+}
+
 * {
     box-sizing: border-box;
   }
@@ -54,6 +66,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  h3{
+    text-align: center;
+  }
   
   .container {
     width: 60%;
@@ -61,8 +77,9 @@
     box-shadow: 10px 10px 40px 5px #e0e0e0;
     margin-top: 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+ 
   }
   
   .content-container h1 {
@@ -80,14 +97,15 @@
   }
   
   .img {
-    transform: translateX(-120px);
+    transform: translateX(0px);
     margin-top: 1rem;
-    width: 2000px;
-    height: 450px;
+    
+    width: 1000px;
+    height: 500px;
     border-radius: 20px;
     background: url("https://images.unsplash.com/photo-1600289031464-74d374b64991?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size:cover;
   }
   
@@ -266,7 +284,8 @@ nav {
     color: #ffa31a;
 }
 
-/* Styles pour le contenu principal */
+/* Styles for a principal containair*/
+
 main {
     display: flex;
     flex-wrap: wrap; /* Pour gérer plusieurs repas par ligne */

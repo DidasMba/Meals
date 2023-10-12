@@ -4,7 +4,7 @@ const main = document.querySelector('main');
 const ingredients = document.querySelector('.ingredients');
 const apiUrl = 'https://www.themealdb.com/api/json/v1/1/search.php?s=';
 
-// Écoutez l'événement de soumission du formulaire
+// listening'événement de soumission du formulaire
 document.querySelector('form').addEventListener('submit', function (e) {
   e.preventDefault();
   const searchTerm = input.value;
