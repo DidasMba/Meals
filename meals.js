@@ -64,7 +64,7 @@ document.querySelector('form').addEventListener('submit', function (e) {
           main.appendChild(mealDiv);
         });
       } else {
-        main.innerHTML = 'Aucun repas trouvé.';
+        main.innerHTML = 'No meal found, please try another meal name.';
       }
     })
     .catch(error => console.error(error));
