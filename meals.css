@@ -119,3 +119,169 @@
     padding: 10px;
     color: #ffa31a;
   }
+
+
+
+  /* Styles pour le nav en couleur grise */
+.gray-nav {
+    background-color: #333; /* Couleur de fond grise */
+    color: #fff; /* Couleur du texte blanc */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+/* Styles pour le formulaire de recherche */
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ff6e00;
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px auto; /* Centrer horizontalement */
+    position: relative;
+    transition: width 1.5s;
+}
+
+.input {
+    margin: 10px 50px;
+    margin-left: 20px;
+    width: 100%;
+    color: #ff6e00;
+    border: none;
+    background: transparent;
+    outline: none;
+    transition-delay: 0.5s;
+}
+
+.magnifier {
+    position: absolute;
+    right: 15px;
+    width: 25px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #ffa31a;
+}
+
+
+/*style of structure page*/
+
+/* Styles pour la structure de la page */
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles pour le formulaire de recherche */
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ff6e00;
+    padding: 5px;
+    width: 100%; /* Ajuste la largeur pour s'adapter à tous les appareils */
+    max-width: 300px; /* Limite la largeur maximale */
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px auto;
+    position: relative;
+    transition: width 1.5s;
+}
+
+.input {
+    margin: 10px 50px;
+    margin-left: 20px;
+    width: 100%;
+    color: #ff6e00;
+    border: none;
+    background: transparent;
+    outline: none;
+    transition-delay: 0.5s;
+}
+
+.magnifier {
+    position: absolute;
+    right: 15px;
+    width: 25px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #ffa31a;
+}
+
+/* Styles pour le contenu principal */
+main {
+    display: flex;
+    flex-wrap: wrap; /* Pour gérer plusieurs repas par ligne */
+    justify-content: center;
+}
+
+.ingredients-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients-list li {
+    margin: 5px 0;
+}
+
+
+
+
