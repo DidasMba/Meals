@@ -10,10 +10,13 @@
  
    .input-container {
        max-width: 100%; /* Ajuster la largeur du formulaire pour les petits écrans */
-   }
- }
+   } 
+ } 
+
+
 * {
     box-sizing: border-box;
+    font-size: medium; /* small width for nav */
   }
   
   nav {
